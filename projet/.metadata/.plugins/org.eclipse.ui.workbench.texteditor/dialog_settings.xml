@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="gui_task"/>
+		<item value="audioQueueHandle"/>
+		<item value="avgIndex"/>
+		<item value="Sample"/>
+		<item value="peak"/>
+		<item value="callback"/>
+		<item value="thread"/>
+		<item value="Mutex"/>
+		<item value="defau"/>
+		<item value="defahlt"/>
+		<item value="gauge"/>
+		<item value="TICK"/>
+		<item value="value"/>
+		<item value="begin 4"/>
+		<item value="i2s"/>
+	</list>
+</section>

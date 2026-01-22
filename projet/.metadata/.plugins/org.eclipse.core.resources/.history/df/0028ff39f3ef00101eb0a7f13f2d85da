@@ -1,0 +1,37 @@
+#include <gui/audiosreen_screen/AudioSreenView.hpp>
+extern "C" {
+    extern volatile float audioGain;
+    extern volatile int16_t audioSample;
+}
+AudioSreenView::AudioSreenView()
+{
+
+}
+
+void AudioSreenView::setupScreen()
+{
+    AudioSreenViewBase::setupScreen();
+}
+
+void AudioSreenView::tearDownScreen()
+{
+    AudioSreenViewBase::tearDownScreen();
+}
+
+void AudioSreenView::gainChange(int value)
+{
+	audioGain= (float)value;
+}
+void AudioSreenView::handleTickEvent()
+{
+   int gaugeValue = audioSample  ;
+
+    // Clamp to gauge range just in case
+    if (gaugeValue > 20000) gaugeValue = 20000;
+    if (gaugeValue < 0) gaugeValue = 0;
+
+    gauge1.setValue(gaugeValue);
+    gauge1.invalidate();
+
+}
+

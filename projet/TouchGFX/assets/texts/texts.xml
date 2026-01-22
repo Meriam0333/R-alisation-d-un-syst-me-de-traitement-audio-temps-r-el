@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_TCKR" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">(C) ENIT 2026</Translation>
+      </Text>
+      <Text Id="__SingleUse_0W47" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Gain</Translation>
+      </Text>
+      <Text Id="__SingleUse_WVZA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Amplitude</Translation>
+      </Text>
+      <Text Id="__SingleUse_EYJ6" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="GB">HOME</Translation>
+      </Text>
+      <Text Id="__SingleUse_VZ7D" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="GB">START</Translation>
+      </Text>
+      <Text Id="__SingleUse_SVYC" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="GB">Encadré par:&#10;M.Khaled Jelassi</Translation>
+      </Text>
+      <Text Id="__SingleUse_RLUT" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="GB">Réalisé par:&#10;Meriam Bani&#10;Khalil Rezgui</Translation>
+      </Text>
+      <Text Id="__SingleUse_2OZQ" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="GB">Réalisation d’un système de&#10;traitement audio temps réel</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography1" Font="bahnschrift.ttf" Size="16" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

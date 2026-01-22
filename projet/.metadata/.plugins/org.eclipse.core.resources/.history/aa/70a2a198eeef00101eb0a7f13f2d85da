@@ -1,0 +1,22 @@
+#include <gui/audiosreen_screen/AudioSreenView.hpp>
+extern "C" {
+    extern volatile float audioGain;
+}
+AudioSreenView::AudioSreenView()
+{
+
+}
+
+void AudioSreenView::setupScreen()
+{
+    AudioSreenViewBase::setupScreen();
+}
+
+void AudioSreenView::tearDownScreen()
+{
+    AudioSreenViewBase::tearDownScreen();
+}
+void AudioSreenView::gainChange(int value)
+{
+	audioGain=value;
+}
