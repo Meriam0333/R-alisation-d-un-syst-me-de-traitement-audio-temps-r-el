@@ -79,3 +79,9 @@ PINOUT:
 SD:	AMP: WHITE PC12  | MIC: Yellow PC11
 CK:	AMP: YELLOW PC10 | MIC: Green
 WC:	AMP: BROWN PA15  | MIC: White
+
+Présentation du projet :
+[Télécharger la présentation du projet PDF](https://drive.google.com/file/d/1axY-0xhUZbiNkC-MA0SR_Trt3Dp-M0p4/view?usp=sharing)
+
+Vidéo démonstrative : 
+[Télécharger la présentation du projet mp4](https://drive.google.com/file/d/1mRoKEGFJSNc03kaejlf5y1Sq1hyqYkiH/view?usp=sharing)
